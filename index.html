@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.icon-icons.com/icons2/1001/PNG/512/ilustracoes_04-12_icon-icons.com_75471.png"
+    />
+    <title>Bruno Li | Portfolio</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>BRUNO LI BITTENCOURT</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero" id="about">
+      <img
+        src="assets/images/photo2.jpg"
+        style="
+          margin-top: 50px;
+          height: 700px;
+          border-radius: 20px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+        "
+        alt="bruno-photo"
+        loading="lazy"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I'm a 19 year-old developer currently working as a Product Development
+          Assistant at a brazilian company. I have been involved with both
+          Back-end and Front-end projects, but my favorite part of software
+          development is definitely Back-end! Another interesting feature about
+          myself is that I've been a chinese speaker for 4 years now!
+        </p>
+      </div>
+    </section>
+
+    <section class="more-about">
+      <h2 style="padding-top: 100px">More About Me</h2>
+      <div style="display: flex; text-align: center">
+        <img
+          src="assets/images/photo.jpg"
+          alt="bruno-photo2"
+          loading="lazy"
+          style="
+            height: 400px;
+            border-radius: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          "
+        />
+      </div>
+      <p style="padding-top: 50px">
+        &nbsp On 2018 I went on an exchange program to China for a year, over
+        there I made a lot of friends, learned a lot about the Chinese culture
+        and studied chinese every single day. The reason I choose China for this
+        experience is because my grandpa is from Taiwan, so not only I had the
+        chance to learn the most spoken language in the world, but also I could
+        communicate with my relatives.
+      </p>
+      <p>
+        &nbsp After focusing on the language learning, my professional life
+        started on 2020, during the pandemic. I started taking all kinds of
+        online tech courses, until I got an internship opportunity. I spent one
+        year with Back-end projects using Javascript-Node.js and Python-Django,
+        and I have been working on Front-end projects using
+        Typescript-React.js-Next.js for 4 months now (2/2022).
+      </p>
+      <p>
+        &nbsp Right now I have been focusing on building personal projects, and
+        I also started learning GoLang which I'm loving. Because of work,
+        college and keeping my chinese level, it's a little hard to find time
+        for personal studying/projects, but I'm trying my best :D.
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Dev Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/python-icon.png"
+            alt="python-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/django-icon.png"
+            alt="django-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/nodejs-icon.jpg"
+            alt="nodejs-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="javascript-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/typescript-icon.png"
+            alt="typescript-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/react-icon.png"
+            alt="react-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/marvel-heroes-list.png"
+            alt="marvel-heroes-list"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Marvel Heroes List</h3>
+          <p class="project-details">
+            A Front-end project using Typescript and Next js with Marvel API.
+          </p>
+          <a
+            href="https://github.com/brunolb02/marvel-heroes-list"
+            target="_blank"
+            class="project-link"
+            >Check it Out</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/backend-img.png"
+            alt="nodejs-ts-express"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Node.js, Express, and TypeScript API</h3>
+          <p class="project-details">
+            Using Typescript to create an Express-driven Node.js application
+            exposing a REST API.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mpzbpggg" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                style="text-align: left; padding-left: 10px"
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                style="text-align: left; padding-left: 10px"
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="https://twitter.com/brunolb_" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        href="https://www.instagram.com/brunolibittencourt/?hl=en"
+        target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/bruno-li-bittencourt/"
+        target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/brunolb02" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <script src="assets/js/app.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
